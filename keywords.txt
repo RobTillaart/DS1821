@@ -1,0 +1,15 @@
+# Syntax Coloring Map For DS1821
+
+# Datatypes (KEYWORD1)
+DS1821	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+requestTemperature	KEYWORD2
+conversionReady	KEYWORD2
+readTemperature	KEYWORD2
+error	KEYWORD2
+
+# Constants (LITERAL1)
+DS1821_RESET_OK	LITERAL1
+DS1821_RESET_ERROR	LITERAL1
+
