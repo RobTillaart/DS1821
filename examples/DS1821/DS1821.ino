@@ -1,13 +1,12 @@
 //
 //    FILE: DS1821.ino
 //  AUTHOR: Rob Tillaart
-// VERSION: 0.1.0
+// VERSION: 0.1.2
 //    DATE: 2015-05-14
 // PURPOSE: Arduino library for DS1821 temperature sensor
 //     URL: https://github.com/RobTillaart/DS1821
 //
 
-#include "OneWire.h"
 #include "DS1821.h"
 
 OneWire ds(10);     // change pin if needed
@@ -17,7 +16,7 @@ DS1821 tt(&ds);
 void setup()
 {
   Serial.begin(115200);
-  Serial.println(__FILE__);w
+  Serial.println(__FILE__);
 
   int error = tt.requestTemperature();
   Serial.print("Error:\t");

@@ -7,7 +7,6 @@
 //     URL: https://github.com/RobTillaart/DS1821
 //
 
-#include "OneWire.h"
 #include "DS1821.h"
 
 OneWire ds(10);     // change pin if needed
