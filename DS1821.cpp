@@ -1,16 +1,17 @@
 //
 //    FILE: DS1821.cpp
 //  AUTHOR: Rob Tillaart
-// VERSION: 0.3.0
+// VERSION: 0.3.1
 //    DATE: 2014-10-05
 // PURPOSE: Arduino library for DS1821 temperature sensor
 //     URL: https://github.com/RobTillaart/DS1821
 //
 // HISTORY:
-// 0.0.1    2014-10-05 initial version
-// 0.1.00   2015-05-14 added prescale support
-// 0.2.0    2020-08-05 initial release; refactored ad fundum.
-// 0.3.0    2020-08-
+// 0.0.1    2014-10-05  initial version
+// 0.1.00   2015-05-14  added prescale support
+// 0.2.0    2020-08-05  initial release; refactored ad fundum.
+// 0.3.0    2020-08-07  add continuous mode, alarm level, polarity, thermostat etc
+// 0.3.1    2020-12-20  arduino-CI + unit test (frame)
 
 
 #include "DS1821.h"

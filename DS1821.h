@@ -2,7 +2,7 @@
 //
 //    FILE: DS1821.h
 //  AUTHOR: Rob Tillaart
-// VERSION: 0.3.0
+// VERSION: 0.3.1
 //    DATE: 2014-10-05
 // PURPOSE: Arduino library for DS1821 temperature sensor
 //     URL: https://github.com/RobTillaart/DS1821
@@ -20,7 +20,7 @@
 #include "Arduino.h"
 #include "OneWire.h"
 
-#define DS1821_H_LIB_VERSION     "0.3.0"
+#define DS1821_H_LIB_VERSION     "0.3.1"
 
 #define DS1821_RESET_OK          0
 #define DS1821_RESET_ERROR       -999
