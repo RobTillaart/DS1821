@@ -1,3 +1,8 @@
+
+[![Arduino CI](https://github.com/RobTillaart/DS1821/workflows/Arduino%20CI/badge.svg)](https://github.com/marketplace/actions/arduino_ci)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/RobTillaart/DS1821/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/RobTillaart/DS1821.svg?maxAge=3600)](https://github.com/RobTillaart/DS1821/releases)
+
 # DS1821
 
 Arduino library for DS1821 temperature sensor (experimental)
