@@ -201,9 +201,9 @@ int DS1821::setOneWireMode(uint8_t VDD, uint8_t DQ)
 }
 
 
-int DS1821::setPolarity(int activstate)
+int DS1821::setPolarity(int activeState)
 {
-  if (activstate == HIGH) return _setConfigFlag(DS1821_CONF_POL);
+  if (activeState == HIGH) return _setConfigFlag(DS1821_CONF_POL);
   return _clrConfigFlag(DS1821_CONF_POL);
 }
 
