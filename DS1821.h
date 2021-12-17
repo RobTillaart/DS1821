@@ -40,7 +40,7 @@ public:
 
   int        conversionReady();
   float      readTemperature();
-  int        error()  { int e = _err; _err = 0; return e; };
+  int        error()  { int e = _error; _error = 0; return e; };
 
   // High and low temperature 'alarm' flags.
   int        setLow(int8_t lo);
