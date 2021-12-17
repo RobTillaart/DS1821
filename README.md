@@ -8,7 +8,7 @@
 
 # DS1821
 
-Arduino library for DS1821 temperature sensor (experimental)
+Arduino library for DS1821 temperature sensor (experimental).
 
 
 ## Description
@@ -73,7 +73,7 @@ Thermostat mode next restart.
 The polarity functions are also available in temperature sensor mode,
 however they have no effect in that mode.
 
-- **int setPolarity(int activState)** When in thermostat mode the DQ pin controls e.g.
+- **int setPolarity(int activeState)** When in thermostat mode the DQ pin controls e.g.
 a fan or a motor. ActivState defines which value is ON and OFF.
 - **int getPolarity()** reads back polarity from the device.
 
@@ -81,14 +81,15 @@ The Low / High values set in sensor mode gives the DS1821 the thresholds
 to toggle the DQ line in the thermostat mode.
 
 
-## Future
-
-- Get new sensors to test test test...
-- merge clrLowFlag() into getLowFlag() ? high idem?
-- update documentation
-
-
 ## Operation
 
 See examples.
+
+
+## Future
+
+- updates only on request 
+- Get new sensors to test test test...
+- merge clrLowFlag() into getLowFlag() ? high idem?
+- update documentation
 
