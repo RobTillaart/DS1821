@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
 ## [0.3.8] - 2026-05-12
+- update readme.md
 - update GitHub actions
 - minor edits
 
